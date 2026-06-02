@@ -29,7 +29,7 @@ Include only meaningful, non-redundant information:
 
 Use this exact format for each entry:
 
-```markdown
+````markdown
 ## [YYYY-MM-DD HH:MM] - Short Title
 
 **Summary:** What was done.
@@ -42,7 +42,7 @@ Use this exact format for each entry:
 **Files:** `path/to/file`, `path/to/another/file`
 
 **Notes:** Any architectural decisions or important context.
-```
+````
 
 ## Behavior
 

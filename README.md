@@ -17,7 +17,7 @@ This repository contains a `.github/copilot-instructions.md` file that tells Git
 Clone this repo and open it in VS Code:
 
 ```bash
-git clone <this-repo-url> your-project
+git clone https://github.com/TingyuShare/github-copilot-instructions.git your-project
 code your-project
 ```
 
@@ -38,7 +38,7 @@ Set this in your VS Code `settings.json` to apply globally:
 ```json
 "github.copilot.chat.customInstructions": [
   {
-    "url": "https://raw.githubusercontent.com/<owner>/<repo>/main/.github/copilot-instructions.md"
+    "url": "https://raw.githubusercontent.com/TingyuShare/github-copilot-instructions/main/.github/copilot-instructions.md"
   }
 ]
 ```

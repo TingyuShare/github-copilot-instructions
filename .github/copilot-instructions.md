@@ -48,4 +48,4 @@ Use this exact format for each entry:
 
 - **Append-only** — always add new entries at the bottom; never modify or delete past entries.
 - **Idempotent** — only write one entry per logical task, even if Copilot is invoked multiple times during the same task.
-- If `operations.md` does not exist, create it with a header `# Operations Log` and then append the entry.
+- If `operations.md` does not exist, ask the user for confirmation before creating it. Explain that it will log key commands, file changes, and decisions to make sessions replayable and auditable. Only create if the user agrees.
